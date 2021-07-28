@@ -53,13 +53,11 @@ npm install
   ```javascript
   {
     "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
-    "prefix": "TU Prefix"
+    "prefix": "Tu Prefix"
   }
   ```
 
 #### Ejemplos
-
-# AOI.JS:
 
 **npm install discord.js Package Aqui: [**Click Aqui**](https://github.com/Jennifer7w7/Bot-Tutoriales#package)- lo definimos abajo esta para hacer el bot 😅**
 
@@ -112,24 +110,6 @@ client.on("message", async message => {
 
 <div align="left"><img src="/assets/token.gif">
 
-#### 🎃 Paquetes opcionales
-
-* [@discordjs/opus](https://www.npmjs.com/package/@discordjs/opus) para codificación, utilizado principalmente para música \(`npm install @discordjs/opus`\)
-* [ffmpeg-static](https://github.com/discord/ffmpeg-static) para permitir que los filtros de música se ejecuten sin problemas \(`npm install ffmpeg-static`\)
-* [danbot-hosting](https://www.npmjs.com/package/danbot-hosting) para publicar estadísticas en su API \(`npm install danbot-hosting`\)
-
-**🎶 Integración musical**
-
-Con nuestro poderoso Paquete, incorporamos Música con varias funciones. Permitimos la personalización y el control sobre lo que desea.
-
-**🎈 Ejemplo De Musica**
-
-```javascript
-bot.command({
-name: "play",
-code: `$playSong[Nombre de la música; algo salió mal!]`
-})
-```
 ## 💨 Ejecuta los proyectos
 
 **Glitch:** [![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Jennifer7w7/Bot-Tutoriales)
