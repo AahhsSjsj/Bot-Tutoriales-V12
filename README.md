@@ -120,6 +120,6 @@ client.on("message", async message => {
 
 * [Web De Discord.js](https://discord.js.org/#/)
 * [Documentation Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
-* [Discord.js Server](discord.gg/djs)
+* [Discord.js Server](https://discord.com/invite/bRCvFy9)
 * [Github](https://github.com/Jennifer7w7)
 * [Discord Server](https://discord.gg/TvBXwYbW4y)
