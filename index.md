@@ -1,37 +1,110 @@
-## Welcome to GitHub Pages
+## Bot Tutoriales ♥💗
 
-You can use the [editor on GitHub](https://github.com/Jennifer7w7/Bot-Tutoriales/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Instalación
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Se requiere Node.JS 12.0.0 o más reciente**
 
-### Markdown
+**Primero Es El Package que es este uwu:**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# PACKAGE
 
-```markdown
-Syntax highlighted code block
+```javascript
+{
+  "name": "Bot-Tutoriales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "canvas": "^2.8.0",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "quick.db": "^7.1.3",
+    "snakecord": "^1.0.7"
+  }
+}
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```text
+Despues de Esto Pones npm init -y
 
-### Jekyll Themes
+y lo ultimo:
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jennifer7w7/Bot-Tutoriales/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```javascript
+npm install
+```
 
-### Support or Contact
+**Para Instalar Los Npms!**
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Despues Debes Irte Donde el archivo config.json y Pones esto!
+
+  ```javascript
+  {
+    "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
+    "prefix": "Tu Prefix"
+  }
+  ```
+
+#### Ejemplos
+
+**npm install discord.js Package Aqui: [**Click Aqui**](https://github.com/Jennifer7w7/Bot-Tutoriales#package)- lo definimos abajo esta para hacer el bot 😅**
+
+# DISCORD.JS
+
+```javascript
+
+
+
+function presence(){
+   client.user.setPresence({
+      status: "online",
+      game: {
+         name: "TEXTO", // Mensaje Para Poner en el Estado!
+         type: "PLAYING" // PLAYING, WATCHING, LISTENING, STREAMING Nota: Para El STREAMING Debes Poner Asi:
+         //type: "STREAMING",
+         //url: "twitch canal!" uwu!
+      }
+   });
+}
+
+
+client.on("ready", () => {
+    console.log("Estoy listo!");
+    prensece();
+ });
+ 
+client.on("message", async message => {
+    if(message.author.bot) return;
+    if(message.content.indexOf(prefix) !==0) return;
+
+    const agrs = message.content.slice(prefix.length).trim().split(/ +/g);
+
+    const command = agrs.shift().toLowerCase();
+
+    if(command === 'ping') {
+
+        message.lienReply("Pong")
+
+    }
+   }
+ 
+ });
+ 
+ client.login(token);
+
+```
+
+Mas Informacion Aqui:
+
+**https://github.com/Jennifer7w7/Bot-Tutoriales**
