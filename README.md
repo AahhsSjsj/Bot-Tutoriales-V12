@@ -24,6 +24,7 @@
   "dependencies": {
     "ascii-table": "0.0.9",
     "canvas": "^2.8.0",
+    "discord-reply": "^0.1.2",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
@@ -37,17 +38,13 @@
 ```
 
 ```text
-Despues de Esto Pones npm init -y
-
+Despues de Esto Pones "npm init -y"
 y lo ultimo:
 ```
-
 ```javascript
 npm install
 ```
-
 **Para Instalar Los Npms!**
-
 # Despues Debes Irte Donde el archivo config.json y Pones esto!
 
   ```javascript
@@ -64,7 +61,8 @@ npm install
 # DISCORD.JS
 
 ```javascript
-
+const Discord = require('discord.js')
+const client = new Discord.Client();
 
 
 function presence(){
