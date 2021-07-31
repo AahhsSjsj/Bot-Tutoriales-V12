@@ -44,4 +44,42 @@ client.on('message', async message => {
   if(!comando) comando = client.commands.get(client.aliases.get(cmd));
   if(comando) comando.run(client, message, args)
 })
+client.on('messageReactionAdd', async(reaction, user) => {
+    if(reaction.message.partial) await reaction.message.fetch();
+    if(reaction.partial) await reaction.fetch()
+    if(user.bot) return;
+    if(!reaction.message.guild) return;
+    if(reaction.message.id === '871071587380654152'){
+        if(reaction.emoji.name === '1️⃣') {
+            await reaction.message.guild.members.cache.get(user.id).roles.add('871070312677134366')
+            user.send('Testing !')
+        }
+    }
+    if(reaction.message.id === '871071587380654152'){
+    if(reaction.emoji.name === '2️⃣') {
+        await reaction.message.guild.members.cache.get(user.id).roles.add('871071001797070938')
+        user.send('Testing !')
+        }
+    }
+})
+
+client.on('messageReactionRemove', async (reaction, user) => {
+    if(reaction.message.partial) await reaction.message.fetch();
+    if(reaction.partial) await reaction.fetch()
+    if(user.bot) return;
+    if(!reaction.message.guild) return;
+    if(reaction.message.id === '871071587380654152'){
+        if(reaction.emoji.name === '1️⃣') {
+            await reaction.message.guild.members.cache.get(user.id).roles.remove('871070312677134366')
+            user.send('Testing !')
+        }
+    }
+    if(reaction.message.id === '871071587380654152'){
+    if(reaction.emoji.name === '2️⃣') {
+        await reaction.message.guild.members.cache.get(user.id).roles.remove('871071001797070938')
+        user.send('Testing !')
+        }
+    }
+})
+
 client.login(token)
