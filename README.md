@@ -29,11 +29,13 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "images-scraper": "^6.3.0",
     "node-fetch": "^2.6.1",
     "quick.db": "^7.1.3",
     "snakecord": "^1.0.7"
   }
 }
+
 
 ```
 
