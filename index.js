@@ -6,6 +6,8 @@ const client = new Client({
 });
 const fetch = require('node-fetch')
 const SnakeGame = require('snakecord');
+require('discord-buttons')(client);
+const megadb = require('megadb')
 const config = require('./config.json')
 const prefix = config.prefix
 const token = config.token
@@ -80,6 +82,30 @@ client.on('messageReactionRemove', async (reaction, user) => {
         user.send('Testing !')
         }
     }
+})
+
+client.on('message', async message => {
+
+    if(message.author.bot)return;
+
+    if(message.content.match(new RegExp(`^<@!${client.user.id}>( |)$`))) {
+
+        message.channel.send('Hola !')
+    }
+
+    const automod = new megadb.crearDB({carpeta: 'Base-Datos', sub: 'moderacion', nombre: 'automod'})
+    if(automod.has(message.guild.id)){
+        const palabras = await automod.map(`${message.guild.id}.words`, (w, t) => `${t}`).then(pa => {
+            
+            pa.some(palab => {
+                if(message.content.includes(palab)){
+                    message.delete()
+
+                    message.reply('Por favor dejen de usar palabras hirientes y vurlgares')
+                }
+        })
+    })
+   }
 })
 
 client.login(token)

@@ -9,7 +9,7 @@
 
 # PACKAGE
 
-```javascript
+```json
 {
   "name": "Bot-Tutoriales",
   "version": "1.0.0",
@@ -39,24 +39,24 @@
 
 ```
 
-```text
+```javascript
 Despues de Esto Pones "npm init -y"
 y lo ultimo:
 ```
 ```javascript
-npm install
+npm install o Dandole Click a "install-packages.bat"
 ```
-**Para Instalar Los Npms!**
+**Para Instalar Los Packages!**
 # Despues Debes Irte Donde el archivo config.json y Pones esto!
 
-  ```javascript
+  ```json
   {
     "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
     "prefix": "Tu Prefix"
   }
   ```
 
-#### Ejemplos
+# Ejemplos
 
 **npm install discord.js Package Aqui: [**Click Aqui**](https://github.com/Jennifer7w7/Bot-Tutoriales#package)- lo definimos abajo esta para hacer el bot 😅**
 
@@ -64,7 +64,9 @@ npm install
 
 ```javascript
 const Discord = require('discord.js')
-const client = new Discord.Client();
+const client = new Client()
+const { token, prefix } = require('./config.json')
+const lineReply = require('discord-reply')
 
 
 function presence(){
@@ -95,14 +97,14 @@ client.on("message", async message => {
 
     if(command === 'ping') {
 
-        message.lienReply("Pong")
+        message.lineReply("Pong")
 
     }
    }
  
  });
  
- client.login(token);
+ client.login(token); //No Hacer C&P(Copy and Paste) por que esto puede tener errores ❌
 
 ```
 
@@ -110,16 +112,57 @@ client.on("message", async message => {
 
 <div align="left"><img src="/assets/token.gif">
 
-## 💨 Ejecuta los proyectos
+# 👀 Iniciar Proyecto
+```javascript
+node . o dale click en "start.bat"
+```
 
-**Glitch:** [![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Jennifer7w7/Bot-Tutoriales)
-**Repl:** [![Ejecutarse en Repl.it](/assets/GitHub.PNG)](https://repl.it/github/Jennifer7w7/Bot-Tutoriales)
-**Heroku:** [![Desplegar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jennifer7w7/Bot-Tutoriales)
+# 💨 Ejecuta los proyectos
 
-### 🔗Links
+### **Glitch:** 
+[![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Jennifer7w7/Bot-Tutoriales)
+### **Replit:** 
+[![Ejecutarse en Repl.it](/assets/GitHub.PNG)](https://repl.it/github/Jennifer7w7/Bot-Tutoriales)
+### **Heroku:** 
+[![Desplegar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jennifer7w7/Bot-Tutoriales)
+
+# 🔗Links
 
 * [Web De Discord.js](https://discord.js.org/#/)
 * [Documentation Discord.js](https://discord.js.org/#/docs/main/stable/general/welcome)
 * [Discord.js Server](https://discord.com/invite/bRCvFy9)
 * [Github](https://github.com/Jennifer7w7)
 * [Discord Server](https://discord.gg/TvBXwYbW4y)
+* [Node.js v16](https://nodejs.org/es/download/current/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [Repositorio Bot-Tutoriales V12](https://github.con/Jennifer7w7/Bot-Tutoriales)
+* [Mi Server De Discord](https://dsc.gg/ts-community)
+
+### 🔗 Links De La Paginas Para Ejecutar El Proyecto
+
+* [Heroku](https://heroku.com)
+* [Replit](https://replit.com)
+* [Glitch](https://glitch.com)
+* [Logearte En Glitch](https://glitch.com/signup)
+* [Logearte En Replit](https://replit.com/login)
+* [Logearte En Heroku](https://id.heroku.com/login)
+* [Registrate En Glitch](https://glitch.com/signin)
+* [Registrate En Replit](https://replit.com/signup)
+* [Registrate En Heroku](https://signup.heroku.com)
+
+
+### 🔗 Links Discord.js:
+
+* [Website](https://discord.js.org/) ([source](https://github.com/discordjs/website))
+* [Documentation](https://discord.js.org/#/docs/main/master/general/welcome)
+* [Guia](https://discordjs.guide/) ([source](https://github.com/discordjs/guide))
+* Ver también el [Guía de actualización](https://discordjs.guide/additional-info/changes-in-v13.html), incluidos los elementos Ya  actualizados y eliminados de la biblioteca.
+* [Discord.js Discord server](https://discord.gg/djs)
+* [Discord API Discord server](https://discord.gg/discord-api)
+* [GitHub](https://github.com/discordjs/discord.js)
+* [NPM](https://www.npmjs.com/package/discord.js)
+* [Bibliotecas relacionadas](https://discord.com/developers/docs/topics/community-resources#libraries)
+
+ ### Extensions
+
+* [RPC](https://www.npmjs.com/package/discord-rpc) ([source](https://github.com/discordjs/RPC))
