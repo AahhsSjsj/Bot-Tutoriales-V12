@@ -89,7 +89,7 @@ module.exports = {
             if(!palabra)return message.channel.send('No puedes remover una palabra vacio al automod')
             if(!automod.has(`${message.guild.id}.words.${palabra}`))return message.lineReply('Esa palabra no esta en la lista del automod')
             automod.delete(`${message.guild.id}.words.${palabra}`, `true`)
-            message.channel.send(`Se Ha Elminado la palabra ${palabra} del autmod!`)
+            message.channel.send(`Se Ha Elminado la palabra ${palabra} del automod!`)
         } //Ahora veremos para que borre el mensaje cuando pones esa palabra :)
     }
     }

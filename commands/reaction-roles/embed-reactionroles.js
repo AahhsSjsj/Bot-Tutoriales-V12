@@ -5,6 +5,14 @@ const lineReply = require('discord-reply')
 module.exports = {
     name: "embed-reactionroles",
     aliases: ["err"],
+    /**
+     * 
+     * @param {import("../../index.js")} client 
+     * @param {import("../../events/message")} Discord 
+     * @param {import("discord.js").Message} message 
+     * @param {string[]} args 
+     * @param {*} param3
+    */
     run: async(client, message, args) => {
     
         const embed = new MessageEmbed()

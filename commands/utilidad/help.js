@@ -7,6 +7,14 @@ module.exports = {
     name: "help",
     aliases : ['h'],
     description: "Muestra todos los comandos de bot disponibles.",
+    /**
+     * 
+     * @param {import("../../index.js")} client 
+     * @param {import("../../events/message")} Discord 
+     * @param {import("discord.js").Message} message 
+     * @param {string[]} args 
+     * @param {*} param3
+    */
     run: async (client, message, args) => {
   
   

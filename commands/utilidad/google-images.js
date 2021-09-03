@@ -13,6 +13,14 @@ module.exports = {
     aliases: [""],
     description: "Envia Una Imagen De Google :D",
     usage: "texto",
+    /**
+     * 
+     * @param {import("../../index.js")} client 
+     * @param {import("../../events/message")} Discord 
+     * @param {import("discord.js").Message} message 
+     * @param {string[]} args 
+     * @param {*} param3
+     */
     run: async(client, message, args) => {
         const query = args.join(" ")
         if(!query) return message.lineReply('Por Favor Pon Una Busqueda :D')

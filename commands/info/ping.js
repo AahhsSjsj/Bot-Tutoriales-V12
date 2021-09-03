@@ -3,13 +3,14 @@ module.exports = {
     name: "ping",
     category: 'info',
     description: "Devuelve latencia y ping API",
-
     /**
-     * @param {Client} client
-     * @param {Message} message
-     * @param {String[]} args
-     */
-
+     * 
+     * @param {import("../../index.js")} client 
+     * @param {import("../../events/message")} Discord 
+     * @param {import("discord.js").Message} message 
+     * @param {string[]} args 
+     * @param {*} param3
+    */
     run : async(client, message, args) => {
         const msg = await message.channel.send(`🏓 Haciendo Ping....`)
         const embed = new MessageEmbed()
