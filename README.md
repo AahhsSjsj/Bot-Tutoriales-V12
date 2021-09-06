@@ -154,9 +154,9 @@ client.on("message", async message => {
 
 ```
 
-# ⁉ No Sabes Como Copiar Tu Token? Sencillo Aqui Lo Podes Ver uwu:
+# ⁉ No Sabes Como Copiar Tu Token y Poner Tu Prefix Para Tu Bot?? Sencillo Aqui Lo Podes Ver uwu:
 
-<div align="left"><img src="/assets/token.gif">
+<div align="left"><img src="/assets/token-&-add-prefix.gif">
 
 # 👀 Iniciar Proyecto
 ```javascript
