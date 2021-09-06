@@ -39,7 +39,7 @@ PD: Muy Pronto Video De Esto OwO
 * [Node.js 14.17.6](https://nodejs.org/en/download/)
 * [discord.js@12.5.3](https://www.npmjs.com/package/discord.js/v/12.5.3)
 
-**O Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#-descargar-las-cosas-necesarias) Para llevarte A Descargar Mas Rapido Node.Js o tambien visual studio code o si no puedes editar en Replit - Glitch - Heroku PD: Heroku es un host lo puedes editar tu proyecto con Visual Studio Code para eso necesita Git - Heroku App - Node.JS Y Para Descargar Esto Tres Dale Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#descargar-las-cosas-necesarias)**
+**O Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#-descargar-las-cosas-necesarias) Para llevarte A Descargar Mas Rapido Node.Js o tambien visual studio code o si no puedes editar en Replit - Glitch - Heroku PD: Heroku es un host lo puedes editar tu proyecto con Visual Studio Code para eso necesita Git - Heroku App - Node.JS Y Para Descargar Esto Tres Dale Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#-descargar-las-cosas-necesarias)**
 # Instalación
 
 **Se requiere Node.JS 14.17.6 o más reciente**
