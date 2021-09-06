@@ -202,7 +202,6 @@ node . o dale click en "start.bat"
 * [Website](https://discord.js.org/) ([source](https://github.com/discordjs/website))
 * [Documentation](https://discord.js.org/#/docs/main/master/general/welcome)
 * [Guia](https://discordjs.guide/) ([source](https://github.com/discordjs/guide))
-* Ver también el [Guía de actualización](https://discordjs.guide/additional-info/changes-in-v13.html), incluidos los elementos Ya  actualizados y eliminados de la biblioteca.
 * [Discord.js Discord server](https://discord.gg/djs)
 * [Discord API Discord server](https://discord.gg/discord-api)
 * [GitHub](https://github.com/discordjs/discord.js)
