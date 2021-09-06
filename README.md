@@ -3,7 +3,6 @@
 
 # 🌐 Descargar Las Cosas Necesarias
 
-## **Primera Cosa:**
 #### **Node v14.17.6**
 
 * **[Click Aqui Para Descargar](https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi)**
