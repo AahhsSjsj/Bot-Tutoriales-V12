@@ -50,7 +50,7 @@ PD: Muy Pronto Video De Esto OwO
 
 ```json
 {
-  "name": "Bot-Tutoriales",
+  "name": "Bot-Tutoriales-V12",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
