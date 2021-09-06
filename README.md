@@ -111,7 +111,12 @@ npm install o Dandole Click a "install-packages.bat"
 ```javascript
 const Discord = require('discord.js')
 const client = new Client()
-const { token, prefix } = require('./config.json')
+const { token, prefix } = require('./config.json') // Tener El Archivo config.json dentro del archivo deben Poner: 
+//{
+//  "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
+// "prefix": "Tu Prefix"
+//}
+//PD: deben quitar dentro del archivo los "//" solo lo otro ⚠
 const lineReply = require('discord-reply')
 
 
