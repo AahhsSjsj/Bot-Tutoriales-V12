@@ -1,9 +1,49 @@
 
 <p align="center">Bot Tutoriales :heart: </p>
 
+# 🌐 Descargar Las Cosas Necesarias
+
+## **Primera Cosa:**
+#### **Node v14.17.6**
+
+* **[Click Aqui Para Descargar](https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi)**
+
+#### **Visual Studio Code**
+
+* **[Click Aqui Para Descargar](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)**
+
+#### **💘 Descarga Las Tres Cosas Para Usar El Host De Heroku**
+
+#### **Heroku App**
+
+* **[Click Aqui Para Descargar](https://cli-assets.heroku.com/heroku-x64.exe)**
+
+#### **Visual Studio Code App**
+
+* **[Click Aqui Para Descargar](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)** **| O Solo Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#visual-studio-code)**
+
+#### **Git App**
+
+* **[Click Aqui Para Descargar](https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe)**
+
+```markdown
+Esto Es Todo Para El Host De Heroku Para tu Bot | No Sabes Como Hostearlo? Solo Anda A Las Docs De Heroku Darle Click Aqui:
+``` 
+**[Click Aqui Para Ver Las Docs De Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)** 
+```markdown
+PD: Muy Pronto Video De Esto OwO
+```
+
+
+# ❗ Requisitos ❗
+
+* [Node.js 14.17.6](https://nodejs.org/en/download/)
+* [discord.js@12.5.3](https://www.npmjs.com/package/discord.js/v/12.5.3)
+
+**O Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#descargar-las-cosas-necesarias) Para llevarte A Descargar Mas Rapido Node.Js o tambien visual studio code o si no puedes editar en Replit - Glitch - Heroku PD: Heroku es un host lo puedes editar tu proyecto con Visual Studio Code para eso necesita Git - Heroku App - Node.JS Y Para Descargar Esto Tres Dale Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#descargar-las-cosas-necesarias)**
 # Instalación
 
-**Se requiere Node.JS 12.0.0 o más reciente**
+**Se requiere Node.JS 14.17.6 o más reciente**
 
 **Primero Es El Package que es este uwu:**
 
