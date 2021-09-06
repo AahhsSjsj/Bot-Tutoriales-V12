@@ -19,7 +19,7 @@
 
 #### **Visual Studio Code App**
 
-* **[Click Aqui Para Descargar](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)** **| O Solo Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#visual-studio-code)**
+* **[Click Aqui Para Descargar](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)** **| O Solo Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales-V12#visual-studio-code)**
 
 #### **Git App**
 
@@ -39,7 +39,7 @@ PD: Muy Pronto Video De Esto OwO
 * [Node.js 14.17.6](https://nodejs.org/en/download/)
 * [discord.js@12.5.3](https://www.npmjs.com/package/discord.js/v/12.5.3)
 
-**O Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#-descargar-las-cosas-necesarias) Para llevarte A Descargar Mas Rapido Node.Js o tambien visual studio code o si no puedes editar en Replit - Glitch - Heroku PD: Heroku es un host lo puedes editar tu proyecto con Visual Studio Code para eso necesita Git - Heroku App - Node.JS Y Para Descargar Esto Tres Dale Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales#-descargar-las-cosas-necesarias)**
+**O Darle Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales-V12#-descargar-las-cosas-necesarias) Para llevarte A Descargar Mas Rapido Node.Js o tambien visual studio code o si no puedes editar en Replit - Glitch - Heroku PD: Heroku es un host lo puedes editar tu proyecto con Visual Studio Code para eso necesita Git - Heroku App - Node.JS Y Para Descargar Esto Tres Dale Click Aqui [Here](https://github.com/Jennifer7w7/Bot-Tutoriales-V12#-descargar-las-cosas-necesarias)**
 # Instalación
 
 **Se requiere Node.JS 14.17.6 o más reciente**
@@ -104,7 +104,7 @@ npm install o Dandole Click a "install-packages.bat"
 
 # Ejemplos
 
-**npm install discord.js Package Aqui: [**Click Aqui**](https://github.com/Jennifer7w7/Bot-Tutoriales#package)- lo definimos abajo esta para hacer el bot 😅**
+**npm install discord.js Package Aqui: [**Click Aqui**](https://github.com/Jennifer7w7/Bot-Tutoriales-V12#package)- lo definimos abajo esta para hacer el bot 😅**
 
 # DISCORD.JS
 
@@ -166,11 +166,11 @@ node . o dale click en "start.bat"
 # 💨 Ejecuta los proyectos
 
 ### **Glitch:** 
-[![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Jennifer7w7/Bot-Tutoriales)
+[![Remix en Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/Jennifer7w7/Bot-Tutoriales-V12)
 ### **Replit:** 
-[![Ejecutarse en Repl.it](/assets/GitHub.PNG)](https://repl.it/github/Jennifer7w7/Bot-Tutoriales)
+[![Ejecutarse en Repl.it](/assets/GitHub.PNG)](https://repl.it/github/Jennifer7w7/Bot-Tutoriales-V12)
 ### **Heroku:** 
-[![Desplegar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jennifer7w7/Bot-Tutoriales)
+[![Desplegar](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jennifer7w7/Bot-Tutoriales-V12)
 
 # 🔗Links
 
@@ -181,7 +181,7 @@ node . o dale click en "start.bat"
 * [Discord Server](https://discord.gg/TvBXwYbW4y)
 * [Node.js v16](https://nodejs.org/es/download/current/)
 * [Visual Studio Code](https://code.visualstudio.com/download)
-* [Repositorio Bot-Tutoriales V12](https://github.con/Jennifer7w7/Bot-Tutoriales)
+* [Repositorio Bot-Tutoriales-V12 V12](https://github.con/Jennifer7w7/Bot-Tutoriales-V12)
 * [Mi Server De Discord](https://dsc.gg/ts-community)
 
 ### 🔗 Links De La Paginas Para Ejecutar El Proyecto
