@@ -1,6 +1,6 @@
 # **👋 Guia De Como Usar Git:**
 
-## **1.6 Introducción: configuración de Git por primera vez**
+## **1.6 Introducción: configuración de Git por primera vez.**
 
 ### **Configuración de Git por primera vez**
 

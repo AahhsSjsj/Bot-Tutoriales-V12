@@ -1,6 +1,6 @@
 # **Hola Mi Compañeros Aqui Os Vengo A Enseñar Como Subir Tu Bot A Heroku :D**
 
-**Descargue e instale la [CLI de Heroku](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md).**
+**Descargue e instale la [CLI de Heroku](https://github.com/AahhsSjsj/Bot-Tutoriales-V13/blob/main/READMES/GUIA_COMO_USER_HEROKU.md)**
 **Si aún no lo ha hecho, inicie sesión en su cuenta de Heroku y siga las instrucciones para crear una nueva clave pública SSH.**
 ```powershell
 $ heroku login

@@ -26,7 +26,7 @@
 ### **[Introducción al IDE](https://docs.replit.com/tutorials/01-introduction-to-the-repl-it-ide)**
 **Esta guía le muestra cómo funciona el IDE. Si ha usado VS Code antes, todo debería resultarle familiar, ya que nuestro editor también usa [Mónaco](https://microsoft.github.io/monaco-editor/).**
 
-### **[Trabajar con archivos](https://docs.replit.com/tutorials/02-managing-files-using-repl-it)**
+### **[Trabajar con archivos](https://docs.replit.com/tutorials/02-managing-files-using-repl-it)** 
 **Cada respuesta tiene un sistema de archivos incorporado, por lo que puede cargar archivos existentes o crear nuevos, de forma manual o mediante programación.**
 
 ### **[Almacenamiento de secretos](https://docs.replit.com/repls/secrets-environment-variables)**
