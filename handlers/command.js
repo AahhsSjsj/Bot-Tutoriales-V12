@@ -11,7 +11,12 @@ module.exports= (client) => {
                 client.commands.set(pull.name, pull);
                 table.addRow(file,'✅')
             } else {
-                table.addRow(file, '❌ -> Falta un help.name o help.name no es una cadena.')
+                table.setHeading('Comando', 'Estado De Carga', 'Error Message:')
+                table.addRow(
+                  file,
+                  "❌ Hubo Un Error",
+                  "❌ -> Falta un help.name o help.name no es una cadena."
+                );
                 continue;
             }if(pull.aliases && Array.isArray(pull.aliases)) pull.aliases.forEach(alias => client.aliases.set(alias, pull.name))
         }
