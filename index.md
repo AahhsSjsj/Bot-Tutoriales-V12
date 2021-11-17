@@ -63,7 +63,15 @@ npm install
 # DISCORD.JS
 
 ```javascript
-
+const Discord = require('discord.js')
+const client = new Client()
+const { token, prefix } = require('./config.json') // Tener El Archivo config.json dentro del archivo deben Poner: 
+//{
+//  "token": "Tu Token - Aqui Lo Podes Copiar Tu Token: https://discord.com/developers/applications/clientid/bot",
+// "prefix": "Tu Prefix"
+//}
+//PD: deben quitar dentro del archivo los "//" solo lo otro ⚠
+const lineReply = require('discord-reply')
 
 
 function presence(){
@@ -94,17 +102,16 @@ client.on("message", async message => {
 
     if(command === 'ping') {
 
-        message.lienReply("Pong")
+        message.lineReply("Pong")
 
     }
    }
  
  });
  
- client.login(token);
+ client.login(token); //No Hacer C&P(Copy and Paste) por que esto puede tener errores ❌
 
 ```
-
 Mas Informacion Aqui:
 
-**https://github.com/Jennifer7w7/Bot-Tutoriales**
+**https://github.com/AahhsSjsj/Bot-Tutoriales-V12#-no-sabes-como-copiar-tu-token-y-poner-tu-prefix-para-tu-bot-sencillo-aqui-lo-podes-ver-uwu**
